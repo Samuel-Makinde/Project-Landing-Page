@@ -6,7 +6,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family:'montserrat' sans-serif ;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -35,13 +35,13 @@ p{
     margin-top: 10px;
     text-transform: capitalize;
     letter-spacing: .2rem;
-    text-indent: 10px;
+    text-indent: .6rem;
     line-height: 2.5rem;
 } 
 .cta {
     display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: .6rem 1.25rem;
+    margin-top: 1.25rem;
     background-color: transparent;
     border: 3px solid rgba(194, 18, 88, 0.911);
     color: rgb(247, 253, 253);
@@ -59,7 +59,7 @@ p{
 .section-title {
     text-transform: uppercase;
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: .6rem;
     letter-spacing: .2rem;
     color: black;
     font-weight: 100;
@@ -130,7 +130,7 @@ p{
     letter-spacing: .2rem;
     text-transform: uppercase;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     display: block;
     text-decoration: none;
 }
@@ -169,7 +169,7 @@ p{
     z-index: 100;
     cursor: pointer;
     transform: scale(.8);
-    margin-right: 30px;
+    margin-right: 1.8rem;
 }
 
 /* to make the humberger blink */
@@ -184,8 +184,8 @@ p{
 }
 #header .humberger .bar{
     position: relative;
-    height: 2px;
-    width: 30px;
+    height: .15rem;
+    width: 1.7rem;
     background-color: white;
     z-index: -1;
 }
@@ -201,10 +201,10 @@ p{
     transition-property: top, bottom;
 }
 #header .humberger .bar::after{
-    top: 8px;
+    top: .5rem;
 }
 #header .humberger .bar::before {
-    bottom: 8px;
+    bottom: .5rem;
 }
 #header .humberger.active .bar::before{
     bottom: 0;
@@ -235,8 +235,8 @@ p{
     z-index: -1;
 }
 #hero .hero{
-    max-width: 1200px;
-    padding: 0 50px;
+    max-width: 75rem;
+    padding: 0 3.125rem;
     margin: 0 auto;
     justify-content: flex-start;
 } 
@@ -248,7 +248,7 @@ p{
     text-transform: capitalize;
     color: transparent;
     animation: text_reveal .5s ease forwards;
-    animation-delay: 1.5;  
+    animation-delay: 1.5s;  
 }
 
 /* to give it diffrent animation time */
@@ -299,8 +299,8 @@ p{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    padding: 100px 0;
-    max-width: 1500px;
+    padding: 6.25rem 0;
+    max-width: 93.75rem;
 }
 
 #services .service-top p{
@@ -310,7 +310,7 @@ p{
     margin-top: 10px;
     text-transform: capitalize;
     letter-spacing: .3rem;
-    text-indent: 10px;
+    text-indent: .63rem;
     line-height: 2.5rem;
     /* width: 700px; */
 }
@@ -321,7 +321,7 @@ p{
     flex-wrap: wrap;
     text-transform: capitalize;
     color: black;
-    margin-top: 30px;
+    margin-top: 1.8rem;
     /* padding-bottom: 100px; */
 }
 #services .service-item{
@@ -331,16 +331,16 @@ p{
     flex-direction: column;
     display: flex;
     border-radius: 25px;
-    padding: 30px;
+    padding: 1.8rem;
     background-image: url(images/new\ back.jpg);
     background-size: cover;
     background-position: left top;
     background-repeat: repeat;
-    margin: 10px 20px;
-    padding: 20px;
+    margin: .63rem 1.25rem;
+    padding: 1.25rem;
     position: relative;
-    width: 300px;
-    height: 280px;
+    width: 18.75rem;
+    height: 17.50rem;
     /* background-image */
     z-index: 1;
 }
@@ -356,45 +356,45 @@ p{
     z-index: -1;
 } 
 #services .service-item h2 {
-    font-size: 30px;
+    font-size: 1.8rem;
     color: blue;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: .63rem;
 }
 #services .service-item p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: black;
     text-transform: lowercase;
     font-weight: 100;
     text-align: left;
-    line-height: 20px;
-    letter-spacing: 3px;
+    line-height: 1.25rem;
+    letter-spacing: .19rem;
     /* font-style: italic; */
     font-family: 'Times New Roman', Times, serif;
 }
 #services .service-buttom .icon {
-    height: 100px;
-    width: 100px; 
+    height: 6.25rem;
+    width: 6.25rem; 
     /* position: relative; */
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 #services .service-buttom .icon img{
-    height: 100px;
+    height: 6.25rem;
     /* position: absolute; */
-    width: 100px;
+    width: 6.25rem;
     object-fit: cover
 }
     /* end of service section */
 /* start of projects section */
 #projects .projects {
     flex-direction: column;
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 10px 0;
+    max-width: 75rem;
+    margin: 3.31rem auto;
+    padding: .63rem 0;
 }
 #projects .projects-header h1 {
-    margin-bottom: 30px;
+    margin-bottom: 1.8rem;
 }
 #projects .all-projects {
     justify-content: center;
@@ -410,10 +410,10 @@ p{
     width: 80%;
     margin: 15px auto;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: .63rem;
 }
 #projects .project-info {
-    padding: 10px;
+    padding: .63rem;
     flex-basis: 50%;
     height: 100%;
     display: flex;
@@ -432,16 +432,16 @@ p{
 #projects .project-info h2 {
     font-size: 1.8rem;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: .63rem;
     text-transform: capitalize;
 }
 #projects .project-info  p{
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 #projects .project-img {
     flex-basis: 50%;
-    height: 10px;
+    height: .63rem;
     overflow: hidden;
     position: relative;
 }
@@ -468,13 +468,13 @@ p{
 #about .about{
     flex-direction: column-reverse;
     text-align: center;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 6.25rem 1.25rem;
 }
 #about .col-left{
-    width: 250px;
-    height: 360px;
+    width: 15.63rem;
+    height: 22.50rem;
 }
 #about .col-right{
     width: 100%;
@@ -483,7 +483,7 @@ p{
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: .1rem;
-    margin-bottom: 10px;
+    margin-bottom: .63rem;
 }
 #about .col-right p {
     margin-bottom: 20px;
@@ -491,8 +491,8 @@ p{
 #about .cta{
     color: black;
     font-weight: 500;
-    margin-bottom: 50px;
-    padding: 10px;
+    margin-bottom: 3.13rem;
+    padding: .63rem;
 }
 #about .col-left .about-img {
     position: relative;
@@ -504,17 +504,17 @@ p{
 #about .col-left .about-img::after{
     content: '';
     position: absolute;
-    left: -25px;
-    top: 19px;
+    left: -1.56rem;
+    top: 1.19rem;
     width: 100%;
     height: 100%;
-    border: 10px solid red;
+    border: .63rem solid red;
     z-index: -1;
 }
 #about .about-img img {
-    height: 380px;
-    width: 250px;
-    border: 3px solid white;
+    height: 23.75rem;
+    width: 15.63rem;
+    border: .19rem solid white;
     /* margin-left: -10px; */
 }
 /* End of About section */
@@ -522,34 +522,34 @@ p{
 /* contact section */
 #contact .contact{
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 #contact .contact-items{
-    width: 500px;
+    width: 31.25rem;
 }
 #contact .contact-item {
     width: 80%;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
+    border-radius: .63rem;
+    padding: 1.8rem;
+    margin: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002c;
+    box-shadow: 0rem 0rem 1.13rem 0 #0000002c;
     transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 0rem 0rem .31rem 0 #0000002c;
 }
 
 #contact .icon{
-    width: 70px;
+    width: 4.38rem;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: .63rem;
 }#contact .contact-info h1{
     font-size: 2rem;
     font-weight: 500;
@@ -573,34 +573,34 @@ p{
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer{
-    min-height: 200px;
+    min-height: 12.50rem;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 3.13rem;
+    padding-bottom: .63rem;
 }
 #footer h2{
     color: white;
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: .2rem;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: .63rem;
+    margin-top: .63rem;
     text-transform: capitalize;
 }
 #footer .social-icon {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     
     /* margin-left: 100px; */
 }
 /* to put space between the icon */
 #footer .social-item {
-    margin:0 10px;
+    margin:0 .63rem;
 }
 #footer p{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
-    text-indent: 20px;
+    text-indent: 1.25rem;
     font-style: italic;
 }
 /* to make the icon black */
@@ -646,7 +646,7 @@ p{
 @media only screen and (min-width:768px){
     .cta{
         font-size: 3rem;
-        padding: 20px 60px;
+        padding: 1.25rem 3.75rem;
     }
     h1.section-title{
         font-size: 5rem;
@@ -662,11 +662,11 @@ p{
     #services .service-buttom .service-item{
         flex-basis: 45%;
         margin: 2.5%;
-        padding-left: 50px;
-        height: 360px;
+        padding-left: 3.13rem;
+        height: 22.50rem;
     }
     #services .service-top {
-        max-width: 500px;
+        max-width: 31.25rem;
         margin: 0 auto;
         }
     /* end of service section */
@@ -674,7 +674,7 @@ p{
     /* Project section */
     #projects .project-item{
         flex-direction: row;
-        height: 400px;
+        height: 25rem;
         width: 95%;
         justify-content: space-evenly;
         margin: 0;
@@ -699,29 +699,29 @@ p{
         flex-direction: row;
     }
     #about .col-left {
-        width: 600px;
-        height: 400px;
-        padding-left: 60px;
+        width: 37.50rem;
+        height: 25rem;
+        padding-left: 3.75rem;
         /* overflow: visible; */
     }
     #about .about .col-left .about-img::after {
-        left: -25px;
-        top: 34px;
+        left: -1.56rem;
+        top: 2.13rem;
         height: 100%;
         width: 100%;
-        border: 10px solid crimson;
+        border: .63rem solid crimson;
         box-sizing: border-box;
     }
     #about .about-img img{
-        height: 400px;
-        width: 300px;
-        border: 7px solid white;
+        height: 25rem;
+        width: 18.75rem;
+        border: .44rem solid white;
         
         /* margin-left: -10px; */
     }
     #about .col-right{
         text-align: left;
-        padding: 30px;
+        padding: 1.8rem;
     }
     #about .col-right h1{
         text-align: left;
@@ -730,7 +730,7 @@ p{
     /* contact section */
     #contact .contact{
         flex-direction: column;
-        padding: 100px 0;
+        padding: 6.25rem 0;
         align-items: center;
         justify-content: center;
         min-width: 20vw;
@@ -748,8 +748,8 @@ p{
         flex-direction: row;
     }
     #contact .contact-item .icon {
-        height: 100px;
-        width: 100px;
+        height: 6.25rem;
+        width: 6.25rem;
     }
     #contact .contact-item .icon img {
         object-fit: contain;
@@ -757,12 +757,12 @@ p{
     #contact .contact-item .contact-info {
         width: 100%;
         text-align: left;
-        padding: 10px;
+        padding: .63rem;
     }
 #contact .contact-info h2 {
     font-size: 1.1rem;
     text-align: left;
-    left: 10px;
+    left: .63rem;
 }
         /* end of contact sectiom */
 }
@@ -795,21 +795,21 @@ p{
         display: inline-block;
     }
     #header .nav-list ul li a{
-        font-size: 22px;
+        font-size: 1.38rem;
         padding-right: 0;
     }
     /* about section */
     #about .about .col-left .about-img::after {
-        left: -35px;
-        top: 34px;
+        left: -2.19rem;
+        top: 2.13rem;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: .63rem solid crimson;
     }
     
     #about .about-img img {
-        height: 390px;
-        width: 350px;
+        height: 24.38rem;
+        width: 21.88rem;
         border: 10px solid white;
         /* margin-left: -10px; */
     }
